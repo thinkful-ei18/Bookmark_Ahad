@@ -8,9 +8,9 @@ const bookmarks = (function(){
     let itemTitle = `<span class="bookmark-title">${item.title}</span>`;
     let itemDescription = `<span class="description">${item.description}</span>`;
     let itemStars = `<span>${item.stars}/5 stars</span>`;
-    let itemURL = `<a href="${item.URL}"><button type="submit">Visit Site</button></a>`;
-    let editButton  = '<button type="submit" class="bookmark-edit">Edit Bookmark</button>';
-    let deleteButton = '<button type="submit" class="bookmark-delete">Delete Bookmark</button>';
+    let itemURL = `<a href="${item.URL}"><button type="submit">Visit</button></a>`;
+    let editButton  = '<button type="submit" class="bookmark-edit">Edit</button>';
+    let deleteButton = '<button type="submit" class="bookmark-delete">Delete</button>';
     if (item.edit) {
       itemTitle = `
         <form id="bookmark-edit-item">

@@ -5,7 +5,6 @@ const store = (function () {
   const state = {
     list: [{id: 1},{id: 2, name: 'testing'}],
     adding: false,
-    filter: null,
   };
 
   const addBookmark = function (bookmark) {

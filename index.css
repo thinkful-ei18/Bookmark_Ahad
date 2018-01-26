@@ -4,3 +4,27 @@ body {
   h1 {
     color: Red;
   }
+  #rating_bar{
+    width:100px;
+    height:100px;
+    margin: 4px 175px !important;    
+      display:inline-block;
+      display:inline;
+    unicode-bidi: bidi-override;
+    direction: rtl;
+  }
+  
+  #rating_bar > span:before{
+     content:'O';
+       color: #c7c5c5;
+     height:100px;
+     width:100px;
+     cursor:pointer;
+      font-size:3em;
+     
+  }
+  #rating_bar > span:hover:before,#rating_bar span:hover ~ span:before{
+     
+    color: #4bce32;
+  
+  }
