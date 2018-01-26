@@ -31,10 +31,10 @@ const bookmarks = (function(){
         <input class="bookmark-edit-URL" type="text" value="${item.URL}" />
       `; 
       editButton = `
-      <button type="submit" class="save-edit">Save Changes</button>
+      <button type="submit" class="save-edit">Save</button>
     `;
       deleteButton = `
-      <button type="submit" class="undo-edit">Undo Changes</button>
+      <button type="submit" class="undo-edit">Undo</button>
     `;
     }
 
